@@ -44,6 +44,12 @@ body{
     position: relative;
 }
 
+.general:hover{
+    transform: scale(1.1) translateY(-1px);
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
 .general__imagen{
     width: 300px;
     left: 30px;
