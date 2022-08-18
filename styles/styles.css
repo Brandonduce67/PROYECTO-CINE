@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+*{
+    font-family: 'Changa One', cursive;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 90px 20px 0;
+}
+
+/*------------------INDEX-----------------*/
+
+.adent-titulo h6{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 50;
+    letter-spacing: 10px;
+    opacity: 0.6;
+}
+
+.adent-titulo h1{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.filtro{
+    filter:brightness(0.6);
+}
+
+.general{
+    width: 350px;
+    padding: 0;
+    display: inline-block;
+    height: 400px;
+    margin: 15px;
+    position: relative;
+}
+
+.general__imagen{
+    width: 300px;
+    left: 30px;
+    position: relative;
+}
+
+.Nombre-pelicula{
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 28px;
+    font-weight: 10;
+    letter-spacing: 1px; 
+}
+
+/*--------------------TERMINA INDEX-----------------------*/
+
+
+
+/*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)-----------------------*/
+
+.fon-img{ 
+    margin-left: -37px;
+    margin-top: -25px;
+}
+
+.filtro-img{
+    filter:brightness(0.6);
+    width: 100%;
+}
+
+.cont-img h1{
+    background-color: rgba(0, 0, 0, 0.418);
+    display: inline;
+    width: 100%;
+    top: 250px;
+    right: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    left: 0;
+    position: absolute;
+} 
+
+/*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)-----------------------*/
+
+
+
+/*--------------------ENTRADAS-----------------------*/
+
+.adent-entradas{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.adent-card{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.letra-card{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    width: 420px;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575
+}
+
+.contenedor__div{
+    display: flex;
+    width:fit-content;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------TERMINA ENTRADAS-----------------------*/
+
+
+
+/*--------------------CONTACTOS-----------------------*/
+
+.text{
+    margin: 50px;
+    margin-left: 60px;   
+}
+
+.text__flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    width: 420px;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575;
+}
+
+.custom-button:hover {
+    text-decoration: none;
+    color:#204891;
+    border-color:#204891;
+    background-color: #20489134;
+    border: 2px solid #204891;
+}
+
+.adent__titulo h1{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.adent__titulo h6{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: 50;
+    letter-spacing: 10px;
+    opacity: 0.6;
+}
+
+/*--------------------TERMINA CONTACTOS-----------------------*/
+
+
+
+/*--------------------PREGUNTAS FRECUENTES-----------------------*/
+
+.adent__preg__frecuentes h1{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.container__preg__frecuentes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.texto__preg__frecuentes h6{
+    font-size: 20px;
+    color: #000000a8;
+}
+
+/*--------------------TERMINA PREGUNTAS FRECUENTES-----------------------*/
+
+
+
+/*--------------------MI CUENTA-----------------------*/
+
+.cont__sect {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+}
+
+.conteiner__MiCuenta{
+    max-width: 1260px;
+}
+
+.justif__cont{
+    justify-content: center
+}
+
+.card__MiCuenta{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    font-size: 22px;
+    margin-inline: 100px;
+    font-weight: 1;
+}
+
+.Registro{
+    margin-bottom: 1rem;
+}
+
+.custom-button{
+    line-height: 64px;
+    display: inline-block;
+    background: #204891;
+    color: #fff;
+    font-weight: 100;
+    padding: 0 10px 0 10px;
+    border: 2px solid transparent;
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -ms-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    text-decoration: none;
+}
+
+/*--------------------TERMINA MI CUENTA-----------------------*/
+
+
+
+/*--------------------FOOTER-----------------------*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #204891;
+}
+
+.redes__sociales{
+    display: flex;
+    justify-content: center;
+    background-color: #204891;
+}
+
+/*--------------------FOOTER-----------------------*/
+
+
+
+/*------------------NAV-----------------*/
+
+.header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background-color: rgba(165, 42, 42, 0.438);
+    transition: 0.5s;
+}
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+/*------------------NAV-----------------*/
+
+
+
+/*------------------ESTILO PARA CELULAR-----------------*/
+
+@media (max-width: 500px) {
+        
+        /*------------------NAV PARA CELU-----------------*/
+
+        body{
+            padding-top: 70px;
+        }
+
+        .header{
+            height: 60px;      
+            width: 100%;      
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+            padding: 0 20px;
+            line-height: 60px;
+        }
+
+        .nav-menu{
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+            background-color: #d10101d2;
+            position: fixed;
+            left: 0;
+            top: 60px;
+            width: 100%;
+            height: 100%;
+            padding: 20px 0;
+            left: 100%;
+            transition: left 0.3s;
+        }
+
+        .nav-menu-item{
+            line-height: 70px;
+        }
+
+        .nav-menu-link:hover,
+        .nav-menu-link_active{
+            background-color: rgba(165, 42, 42, 0.438);
+            transition: 0.5s;
+        }
+
+        .nav-toggle{
+            display: block;
+        }
+
+        .nav-menu_visible{
+            left: 0;
+            width: 100%;
+        }
+
+        /*------------------TERMINA NAV PARA CELU-----------------*/
+
+
+
+        /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)ESTILO PARA CELU-----------------------*/
+
+        .cont-img h1{
+            background-color: rgba(0, 0, 0, 0.418);
+            display: inline;
+            width: 50%;
+            top: 15%;
+            color: rgba(255, 255, 255, 0.842);
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        } 
+        
+        .filtro-img{
+            filter:brightness(0.6);
+            width: 105%;
+        }
+
+        /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)ESTILO PARA CELU-----------------------*/
+
+
+
+        /*------------------INDEX PARA CELU-----------------*/
+
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(9, 1fr);
+            grid-template-areas: 
+            "grid1"
+            "grid2"
+            "grid3"
+            "grid4"
+            "grid5"
+            "grid6"
+            "grid7"
+            "grid8"
+            "grid9";
+        }
+
+        .grid1{
+            grid-area: grid1;
+        }
+
+        .grid2{
+            grid-area: grid2;
+        }
+
+        .grid3{
+            grid-area: grid3;
+        }
+
+        .grid4{
+            grid-area: grid4;
+        }
+
+        .grid5{
+            grid-area: grid5;
+        }
+
+        .grid6{
+            grid-area: grid6;
+        }
+
+        .grid7{
+            grid-area: grid7;
+        }
+
+        .grid8{
+            grid-area: grid8;
+        }
+
+        .grid9{
+            grid-area: grid9;
+        }
+
+        .adent-titulo h6{
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 22px;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 50;
+            letter-spacing: 10px;
+            opacity: 0.6;
+        }
+
+        .adent-titulo h1{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 5px;
+        }
+
+        .filtro{
+            filter:brightness(0.6);
+        }
+
+        .general{
+            width: 350px;
+            padding: 0;
+            display: inline-block;
+            height: 400px;
+            margin: 15px;
+            position: relative;
+        }
+
+        .general__imagen{
+            width: 300px;
+            left: 30px;
+            position: relative;
+        }
+
+        .Nombre-pelicula{
+            width: 80%;
+            display: block;
+            position: absolute;
+            top: 300px;
+            left: 40px;
+            color: rgba(255, 255, 255, 0.842);
+            font-size: 28px;
+            font-weight: 10;
+            letter-spacing: 1px; 
+        }
+
+        /*--------------------TERMINA INDEX PARA CELU-----------------------*/
+
+
+        /*--------------------ENTRADAS PARA CELU-----------------------*/
+
+        .adent-entradas{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 3px;
+            font-size: 10px;
+        }
+
+        .adent-card{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            font-size: 14px;
+            padding-right: 100px;
+        }
+
+        .letra-card{
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        select{
+            width: 100%;
+            height: 60px;
+            padding: 0 30px;
+            border: 1px solid #cecece;
+            color: #757575
+        }
+
+        .contenedor__div{
+            display: flex;
+            width:fit-content;  
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cine1{
+            font-size: 15px;
+        }
+
+        #cine2{
+            font-size: 15px;
+        }
+
+        #cine3{
+            font-size: 15px;
+        }
+
+        #cine4{
+            font-size: 15px;
+        }
+
+        #cine5{
+            font-size: 15px;
+        }
+
+        /*--------------------TERMINA ENTRADAS PARA CELU-----------------------*/
+
+
+
+        /*--------------------CONTACTOS PARA CELU-----------------------*/
+
+        .text__flex{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        input{
+            width: 120px;
+            height: 50px;
+            padding: 0 30px;
+            border: 1px solid #cecece;
+            color: #757575;
+        }
+
+        .custom-button:hover {
+            text-decoration: none;
+            color:#204891;
+            border-color:#204891;
+            background-color: #20489134;
+            border: 2px solid #204891;
+        }
+
+        .adent__titulo h1{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            margin-left: 10%;
+            font-weight: 100;
+            letter-spacing: 3px;
+            font-size: 25px;
+        }
+
+        .adent__titulo h6{
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 22px;
+            margin-top: 20px;
+            margin-left: 10%;
+            font-weight: 50;
+            letter-spacing: 5px;
+            opacity: 0.6;
+        }
+
+        .nombre-contacto{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        .apellido-contacto{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        .email-contacto{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        .telefono-contacto{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        /*--------------------TERMINA CONTACTOS PARA CELU-----------------------*/
+
+
+
+        /*--------------------PREGUNTAS FRECUENTES PARA CELU-----------------------*/
+
+        .adent__preg__frecuentes h1{
+            background-color: rgba(255, 255, 255, 0);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 3px;
+            font-size: 30px;
+        }
+
+        .container__preg__frecuentes{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 0;
+        }
+
+        .texto__preg__frecuentes h6{
+            font-size: 15px;
+            color: #000000a8;
+        }
+
+        /*--------------------TERMINA PREGUNTAS FRECUENTES PARA CELU-----------------------*/
+
+
+
+        /*--------------------MI CUENTA PARA CELU-----------------------*/
+
+        .card__MiCuenta{
+            font-size: 15px;
+            margin-inline: 100px;
+            font-weight: 1;
+            margin: auto;
+        }
+
+        .Registro{
+            margin-bottom: 1rem;
+            font-size: 15px;
+        }
+
+        .custom-button{
+            line-height: 34px;
+            display: inline-block;
+            background: #204891;
+            color: #fff;
+            font-weight: 100;
+            padding: 0 10px 0 10px;
+            border: 2px solid transparent;
+            -webkit-transition: all .35s ease-in-out;
+            -moz-transition: all .35s ease-in-out;
+            -ms-transition: all .35s ease-in-out;
+            -o-transition: all .35s ease-in-out;
+            transition: all .35s ease-in-out;
+            text-decoration: none;
+        }
+
+        .dni__email{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        .contraseña{
+            width: 250px;
+            font-size: 15px;
+        }
+
+        /*--------------------TERMINA MI CUENTA PARA CELU-----------------------*/
+
+
+        /*--------------------FOOTER PARA CELU-----------------------*/
+
+        .footer{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            background-color: #204891;
+        }
+
+        .redes__sociales{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            background-color: #204891;
+        }
+
+        /*--------------------FOOTER PARA CELU-----------------------*/
+
+}
+
+/*------------------ESTILO PARA CELULAR-----------------*/
+
+
