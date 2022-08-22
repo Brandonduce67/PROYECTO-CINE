@@ -337,12 +337,12 @@ input{
     display: flex;
     margin-right: 40px;
     list-style: none;
+    align-items: center;
 }
 
 .nav-menu-item{
     font-size: 18px;
     margin: 0 10px;
-    line-height: 80px;
     text-transform: uppercase;
     width: max-content;
 }
