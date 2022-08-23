@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-body{
-    padding: 90px 20px 0;
-}
-
 /*------------------INDEX-----------------*/
 
 .adent-titulo h6{
@@ -305,8 +301,6 @@ input{
 /*------------------NAV-----------------*/
 
 .header{
-    background-color: black;
-    height: 80px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -314,58 +308,50 @@ input{
     z-index: 100;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
+.navbar-brand{
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: rgb(25, 0, 255);
 }
 
 .nav-link{
     color: white;
-    text-decoration: none;
-    max-width: 992px;
-    margin: 0 auto;
+    font-weight: 500;
 }
 
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 0 40px;
-    line-height: 80px;
+.nav-link:hover{
+    color: rgb(25, 0, 255);
 }
 
-.nav-menu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-    align-items: center;
+.navbar{
+    padding-left: 5%;
+    --bs-navbar-brand-hover-color: white;
 }
 
-.nav-menu-item{
-    font-size: 18px;
-    margin: 0 10px;
-    text-transform: uppercase;
-    width: max-content;
+.navbar-collapse{
+    padding-left: 30%;  
 }
 
-.nav-menu-link{
-    padding: 8px 12px;
+.bg-dark{
+    background-color: black !important;
+}
+
+.nav-link:hover,
+.nav-link_active{
+    background-color: rgba(165, 42, 42, 0.438);
+    transition: 0.5s;
     border-radius: 3px;
 }
 
-.nav-menu-link:hover,
-.nav-menu-link_active{
-    background-color: rgba(165, 42, 42, 0.438);
-    transition: 0.5s;
+.navbar-nav{
+    --bs-nav-link-hover-color: white;
 }
 
-.nav-toggle{
-    color: white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
+.navbar-toggler-icon{
+    background-color: #ffffffb4;
 }
 
 /*------------------NAV-----------------*/
