@@ -206,22 +206,6 @@ input{
 
 /*--------------------PREGUNTAS FRECUENTES-----------------------*/
 
-.adent__preg__frecuentes h1{
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: 100;
-    letter-spacing: 5px;
-    font-size: 40px;
-}
-
-.container__preg__frecuentes{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 200px;
-}
-
 .texto__preg__frecuentes h6{
     font-size: 20px;
     color: #000000a8;
