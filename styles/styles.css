@@ -77,7 +77,7 @@
 
 .filtro-img{
     filter:brightness(0.6);
-    width: 101%;
+    width: 100%;
 }
 
 .cont-img h1{
@@ -102,7 +102,6 @@
 /*--------------------ENTRADAS-----------------------*/
 
 .adent-entradas{
-    background-color: rgba(255, 255, 255, 0);
     margin-top: 20px;
     margin-left: 20px;
     font-weight: 100;
@@ -111,41 +110,16 @@
 }
 
 .adent-card{
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 20px;
     margin-left: 20px;
-    font-weight: 100px;
     letter-spacing: 1px;
-    font-size: 25px;
-}
-
-.letra-card{
-    margin: 20px;
-    display: flex;
-    align-items: center;
-}
-
-select{
-    width: 420px;
-    height: 70px;
-    padding: 0 30px;
-    border: 1px solid #cecece;
-    color: #757575
+    font-size: 20px;
 }
 
 .contenedor__div{
     display: flex;
-    width:fit-content;  
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*--------------------TERMINA ENTRADAS-----------------------*/
 
