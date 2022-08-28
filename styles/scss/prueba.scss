@@ -9,41 +9,42 @@
 
 /*------------------INDEX-----------------*/
 
-.adent-titulo h6{
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 22px;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: 50;
-    letter-spacing: 10px;
-    opacity: 0.6;
-}
-
-.adent-titulo h1{
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: 100;
-    letter-spacing: 5px;
+.titulo{
+    .adent-titulo h6{
+        background-color: rgba(179, 104, 104, 0);
+        font-size: 22px;
+        margin-top: 70px;
+        margin-left: 20px;
+        font-weight: 50;
+        letter-spacing: 10px;
+        opacity: 0.6;
+    }
+        .adent-titulo h1{
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 5px;
+        }
 }
 
 .filtro{
     filter:brightness(0.6);
 }
 
-.general{
-    width: 350px;
-    padding: 0;
-    display: inline-block;
-    height: 400px;
-    margin: 15px;
-    position: relative;
-}
-
-.general:hover{
-    transform: scale(1.1) translateY(-1px);
-    transition: all 1s;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+.container-fluid{
+    .general{
+        width: 350px;
+        padding: 0;
+        display: inline-block;
+        height: 400px;
+        margin: 15px;
+        position: relative;
+        &:hover{
+            transform: scale(1.1) translateY(-1px);
+            transition: all 1s;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        }
+    }
 }
 
 .general__imagen{
@@ -148,14 +149,6 @@ input{
     color: #757575;
 }
 
-.custom-button:hover {
-    text-decoration: none;
-    color:#204891;
-    border-color:#204891;
-    background-color: #20489134;
-    border: 2px solid #204891;
-}
-
 .adent__titulo h1{
     background-color: rgba(255, 255, 255, 0);
     margin-top: 20px;
@@ -216,23 +209,26 @@ input{
 
 .Registro{
     margin-bottom: 1rem;
+    padding-top: 5px;
 }
 
-.custom-button{
-    line-height: 64px;
-    display: inline-block;
-    background: #204891;
-    color: #fff;
-    font-weight: 100;
-    padding: 0 10px 0 10px;
-    border: 2px solid transparent;
-    -webkit-transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -ms-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
-    transition: all .35s ease-in-out;
-    text-decoration: none;
+.Registro{
+    .custom-button{
+        line-height: 64px;
+        display: inline-block;
+        background: #204891;
+        color: #fff;
+        font-weight: 100;
+        padding: 1px 10px 1px 10px;
+        border: 2px solid transparent;
+        transition: all .35s ease-in-out;
+        text-decoration: none;
+        &:hover{
+            color: black;
+        }
+    }
 }
+
 
 /*--------------------TERMINA MI CUENTA-----------------------*/
 
@@ -266,22 +262,27 @@ input{
     z-index: 100;
 }
 
-.navbar-brand{
-    color: white;
-    font-weight: 500;
+.header{
+    .navbar-brand{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: red;
+        }
+    }   
 }
 
-.navbar-brand:hover{
-    color: rgb(25, 0, 255);
-}
-
-.nav-link{
-    color: white;
-    font-weight: 500;
-}
-
-.nav-link:hover{
-    color: rgb(25, 0, 255);
+.header{
+    .nav-link{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: white;
+            background-color: rgba(165, 42, 42, 0.438);
+            transition: 0.5s;
+            border-radius: 3px;
+        }
+    }
 }
 
 .navbar{
@@ -295,13 +296,6 @@ input{
 
 .bg-dark{
     background-color: black !important;
-}
-
-.nav-link:hover,
-.nav-link_active{
-    background-color: rgba(165, 42, 42, 0.438);
-    transition: 0.5s;
-    border-radius: 3px;
 }
 
 .navbar-nav{

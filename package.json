@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-cine",
+  "version": "1.0.0",
+  "description": "este es mi proyecto de una pagina de cine",
+  "main": "index.html",
+  "scripts": {
+    "build-css":"node-sass --include-path scss styles/scss/prueba.scss styles/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandonduce67/PROYECTO-CINE.git"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "cine"
+  ],
+  "author": "brandon duce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandonduce67/PROYECTO-CINE/issues"
+  },
+  "homepage": "https://github.com/Brandonduce67/PROYECTO-CINE#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
