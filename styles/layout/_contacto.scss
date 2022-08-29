@@ -1,0 +1,43 @@
+
+/*--------------------CONTACTOS-----------------------*/
+
+.text{
+    margin: 50px;
+    margin-left: 60px;   
+}
+
+.text__flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    width: 420px;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575;
+}
+
+.adent__titulo h1{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.adent__titulo h6{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: 50;
+    letter-spacing: 10px;
+    opacity: 0.6;
+}
+
+/*--------------------TERMINA CONTACTOS-----------------------*/

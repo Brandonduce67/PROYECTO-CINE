@@ -1,0 +1,55 @@
+/*------------------NAV-----------------*/
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header{
+    .navbar-brand{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: red;
+        }
+    }   
+}
+
+.header{
+    .nav-link{
+        color: white;
+        font-weight: 500;
+        &:hover{
+            color: white;
+            background-color: rgba(165, 42, 42, 0.438);
+            transition: 0.5s;
+            border-radius: 3px;
+        }
+    }
+}
+
+.navbar{
+    padding-left: 5%;
+    --bs-navbar-brand-hover-color: white;
+}
+
+.navbar-collapse{
+    padding-left: 30%;  
+}
+
+.bg-dark{
+    background-color: black !important;
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: white;
+}
+
+.navbar-toggler-icon{
+    background-color: #ffffffb4;
+}
+
+/*------------------NAV-----------------*/

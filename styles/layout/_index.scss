@@ -1,0 +1,61 @@
+/*------------------INDEX-----------------*/
+
+
+.titulo{
+    .adent-titulo h6{
+        background-color: rgba(179, 104, 104, 0);
+        font-size: 22px;
+        margin-top: 70px;
+        margin-left: 20px;
+        font-weight: 50;
+        letter-spacing: 10px;
+        opacity: 0.6;
+    }
+        .adent-titulo h1{
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: 100;
+            letter-spacing: 5px;
+        }
+}
+
+.filtro{
+    filter:brightness(0.6);
+}
+
+.container-fluid{
+    .general{
+        width: 350px;
+        padding: 0;
+        display: inline-block;
+        height: 400px;
+        margin: 15px;
+        position: relative;
+        &:hover{
+            transform: scale(1.1) translateY(-1px);
+            transition: all 1s;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        }
+    }
+}
+
+.general__imagen{
+    width: 300px;
+    left: 30px;
+    position: relative;
+}
+
+.Nombre-pelicula{
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 28px;
+    font-weight: 10;
+    letter-spacing: 1px; 
+}
+
+
+/*--------------------TERMINA INDEX-----------------------*/

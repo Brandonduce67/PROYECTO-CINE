@@ -1,0 +1,49 @@
+/*--------------------MI CUENTA-----------------------*/
+
+.cont__sect {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+}
+
+.conteiner__MiCuenta{
+    max-width: 1260px;
+}
+
+.justif__cont{
+    justify-content: center
+}
+
+.card__MiCuenta{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    font-size: 22px;
+    margin-inline: 100px;
+    font-weight: 1;
+}
+
+.Registro{
+    margin-bottom: 1rem;
+    padding-top: 5px;
+}
+
+.Registro{
+    .custom-button{
+        line-height: 64px;
+        display: inline-block;
+        background: #204891;
+        color: #fff;
+        font-weight: 100;
+        padding: 1px 10px 1px 10px;
+        border: 2px solid transparent;
+        transition: all .35s ease-in-out;
+        text-decoration: none;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+
+/*--------------------TERMINA MI CUENTA-----------------------*/

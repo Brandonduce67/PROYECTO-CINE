@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import "./styles/layout/index";
+@import "./styles/layout/entradas";
+@import "./styles/layout/contacto";
+@import "./styles/layout/preguntasfrecuentes";
+@import "./styles/layout/micuenta";
+@import "./styles/layout/nav";
+
 
 *{
     font-family: 'Changa One', cursive;
@@ -6,67 +13,6 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-/*------------------INDEX-----------------*/
-
-.titulo{
-    .adent-titulo h6{
-        background-color: rgba(179, 104, 104, 0);
-        font-size: 22px;
-        margin-top: 70px;
-        margin-left: 20px;
-        font-weight: 50;
-        letter-spacing: 10px;
-        opacity: 0.6;
-    }
-        .adent-titulo h1{
-            margin-top: 20px;
-            margin-left: 20px;
-            font-weight: 100;
-            letter-spacing: 5px;
-        }
-}
-
-.filtro{
-    filter:brightness(0.6);
-}
-
-.container-fluid{
-    .general{
-        width: 350px;
-        padding: 0;
-        display: inline-block;
-        height: 400px;
-        margin: 15px;
-        position: relative;
-        &:hover{
-            transform: scale(1.1) translateY(-1px);
-            transition: all 1s;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-        }
-    }
-}
-
-.general__imagen{
-    width: 300px;
-    left: 30px;
-    position: relative;
-}
-
-.Nombre-pelicula{
-    width: 80%;
-    display: block;
-    position: absolute;
-    top: 300px;
-    left: 40px;
-    color: rgba(255, 255, 255, 0.842);
-    font-size: 28px;
-    font-weight: 10;
-    letter-spacing: 1px; 
-}
-
-/*--------------------TERMINA INDEX-----------------------*/
-
 
 
 /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)-----------------------*/
@@ -99,141 +45,6 @@
 /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)-----------------------*/
 
 
-
-/*--------------------ENTRADAS-----------------------*/
-
-.adent-entradas{
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: 100;
-    letter-spacing: 5px;
-    font-size: 20px;
-}
-
-.adent-card{
-    margin-left: 20px;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
-
-.contenedor__div{
-    display: flex;
-    flex-direction: column;
-}
-
-
-/*--------------------TERMINA ENTRADAS-----------------------*/
-
-
-
-/*--------------------CONTACTOS-----------------------*/
-
-.text{
-    margin: 50px;
-    margin-left: 60px;   
-}
-
-.text__flex{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-input{
-    width: 420px;
-    height: 70px;
-    padding: 0 30px;
-    border: 1px solid #cecece;
-    color: #757575;
-}
-
-.adent__titulo h1{
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 20px;
-    margin-left: 30%;
-    font-weight: 100;
-    letter-spacing: 5px;
-}
-
-.adent__titulo h6{
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 22px;
-    margin-top: 20px;
-    margin-left: 30%;
-    font-weight: 50;
-    letter-spacing: 10px;
-    opacity: 0.6;
-}
-
-/*--------------------TERMINA CONTACTOS-----------------------*/
-
-
-
-/*--------------------PREGUNTAS FRECUENTES-----------------------*/
-
-.texto__preg__frecuentes h6{
-    font-size: 20px;
-    color: #000000a8;
-}
-
-/*--------------------TERMINA PREGUNTAS FRECUENTES-----------------------*/
-
-
-
-/*--------------------MI CUENTA-----------------------*/
-
-.cont__sect {
-    width: 100%;
-    display: flex;
-    padding: 100px 0;
-}
-
-.conteiner__MiCuenta{
-    max-width: 1260px;
-}
-
-.justif__cont{
-    justify-content: center
-}
-
-.card__MiCuenta{
-    display: flex;
-    flex-direction: column;
-    padding: 1.25rem;
-    font-size: 22px;
-    margin-inline: 100px;
-    font-weight: 1;
-}
-
-.Registro{
-    margin-bottom: 1rem;
-    padding-top: 5px;
-}
-
-.Registro{
-    .custom-button{
-        line-height: 64px;
-        display: inline-block;
-        background: #204891;
-        color: #fff;
-        font-weight: 100;
-        padding: 1px 10px 1px 10px;
-        border: 2px solid transparent;
-        transition: all .35s ease-in-out;
-        text-decoration: none;
-        &:hover{
-            color: black;
-        }
-    }
-}
-
-
-/*--------------------TERMINA MI CUENTA-----------------------*/
-
-
-
 /*--------------------FOOTER-----------------------*/
 
 .footer{
@@ -249,65 +60,6 @@ input{
 }
 
 /*--------------------FOOTER-----------------------*/
-
-
-
-/*------------------NAV-----------------*/
-
-.header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-
-.header{
-    .navbar-brand{
-        color: white;
-        font-weight: 500;
-        &:hover{
-            color: red;
-        }
-    }   
-}
-
-.header{
-    .nav-link{
-        color: white;
-        font-weight: 500;
-        &:hover{
-            color: white;
-            background-color: rgba(165, 42, 42, 0.438);
-            transition: 0.5s;
-            border-radius: 3px;
-        }
-    }
-}
-
-.navbar{
-    padding-left: 5%;
-    --bs-navbar-brand-hover-color: white;
-}
-
-.navbar-collapse{
-    padding-left: 30%;  
-}
-
-.bg-dark{
-    background-color: black !important;
-}
-
-.navbar-nav{
-    --bs-nav-link-hover-color: white;
-}
-
-.navbar-toggler-icon{
-    background-color: #ffffffb4;
-}
-
-/*------------------NAV-----------------*/
-
 
 
 /*------------------ESTILO PARA CELULAR-----------------*/
@@ -369,7 +121,6 @@ input{
         /*------------------TERMINA NAV PARA CELU-----------------*/
 
 
-
         /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)ESTILO PARA CELU-----------------------*/
 
         .cont-img h1{
@@ -389,7 +140,6 @@ input{
         }
 
         /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)ESTILO PARA CELU-----------------------*/
-
 
 
         /*------------------INDEX PARA CELU-----------------*/
@@ -571,7 +321,6 @@ input{
         /*--------------------TERMINA ENTRADAS PARA CELU-----------------------*/
 
 
-
         /*--------------------CONTACTOS PARA CELU-----------------------*/
 
         .text__flex{
@@ -640,7 +389,6 @@ input{
         /*--------------------TERMINA CONTACTOS PARA CELU-----------------------*/
 
 
-
         /*--------------------PREGUNTAS FRECUENTES PARA CELU-----------------------*/
 
         .adent__preg__frecuentes h1{
@@ -665,7 +413,6 @@ input{
         }
 
         /*--------------------TERMINA PREGUNTAS FRECUENTES PARA CELU-----------------------*/
-
 
 
         /*--------------------MI CUENTA PARA CELU-----------------------*/
