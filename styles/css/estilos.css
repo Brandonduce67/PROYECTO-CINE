@@ -31,12 +31,12 @@
     transition: all 1s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; }
 
-.general__imagen {
+.container-fluid .general__imagen {
   width: 300px;
   left: 30px;
   position: relative; }
 
-.Nombre-pelicula {
+.container-fluid .Nombre-pelicula {
   width: 80%;
   display: block;
   position: absolute;
@@ -56,43 +56,17 @@
   letter-spacing: 5px;
   font-size: 20px; }
 
-.adent-card {
-  margin-left: 20px;
-  letter-spacing: 1px;
-  font-size: 20px; }
-
 .contenedor__div {
   display: flex;
   flex-direction: column; }
+  .contenedor__div .adent-card {
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-size: 20px; }
 
 /*--------------------TERMINA ENTRADAS-----------------------*/
 /*--------------------CONTACTOS-----------------------*/
-.text {
-  margin: 50px;
-  margin-left: 60px; }
-
-.text__flex {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center; }
-
-input {
-  width: 420px;
-  height: 70px;
-  padding: 0 30px;
-  border: 1px solid #cecece;
-  color: #757575; }
-
-.adent__titulo h1 {
-  background-color: rgba(255, 255, 255, 0);
-  margin-top: 20px;
-  margin-left: 30%;
-  font-weight: 100;
-  letter-spacing: 5px; }
-
-.adent__titulo h6 {
+.contenido-contacto .adent__titulo h6 {
   background-color: rgba(0, 0, 0, 0);
   font-size: 22px;
   margin-top: 20px;
@@ -100,6 +74,23 @@ input {
   font-weight: 50;
   letter-spacing: 10px;
   opacity: 0.6; }
+
+.contenido-contacto .adent__titulo h1 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 20px;
+  margin-left: 30%;
+  font-weight: 100;
+  letter-spacing: 5px; }
+
+.contenido-contacto .text {
+  margin: 50px;
+  margin-left: 60px; }
+  .contenido-contacto .text input {
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575; }
 
 /*--------------------TERMINA CONTACTOS-----------------------*/
 /*--------------------PREGUNTAS FRECUENTES-----------------------*/
@@ -113,37 +104,32 @@ input {
   width: 100%;
   display: flex;
   padding: 100px 0; }
-
-.conteiner__MiCuenta {
-  max-width: 1260px; }
-
-.justif__cont {
-  justify-content: center; }
-
-.card__MiCuenta {
-  display: flex;
-  flex-direction: column;
-  padding: 1.25rem;
-  font-size: 22px;
-  margin-inline: 100px;
-  font-weight: 1; }
-
-.Registro {
-  margin-bottom: 1rem;
-  padding-top: 5px; }
-
-.Registro .custom-button {
-  line-height: 64px;
-  display: inline-block;
-  background: #204891;
-  color: #fff;
-  font-weight: 100;
-  padding: 1px 10px 1px 10px;
-  border: 2px solid transparent;
-  transition: all .35s ease-in-out;
-  text-decoration: none; }
-  .Registro .custom-button:hover {
-    color: black; }
+  .cont__sect .conteiner__MiCuenta {
+    max-width: 1260px; }
+    .cont__sect .conteiner__MiCuenta .justif__cont {
+      justify-content: center; }
+      .cont__sect .conteiner__MiCuenta .justif__cont .card__MiCuenta {
+        display: flex;
+        flex-direction: column;
+        padding: 1.25rem;
+        font-size: 22px;
+        margin-inline: 100px;
+        font-weight: 1; }
+        .cont__sect .conteiner__MiCuenta .justif__cont .card__MiCuenta .Registro {
+          margin-bottom: 1rem;
+          padding-top: 5px; }
+          .cont__sect .conteiner__MiCuenta .justif__cont .card__MiCuenta .Registro .custom-button {
+            line-height: 64px;
+            display: inline-block;
+            background: #204891;
+            color: #fff;
+            font-weight: 100;
+            padding: 1px 10px 1px 10px;
+            border: 2px solid transparent;
+            transition: all .35s ease-in-out;
+            text-decoration: none; }
+            .cont__sect .conteiner__MiCuenta .justif__cont .card__MiCuenta .Registro .custom-button:hover {
+              color: black; }
 
 /*--------------------TERMINA MI CUENTA-----------------------*/
 /*------------------NAV-----------------*/
@@ -196,12 +182,11 @@ input {
 .fon-img {
   margin-left: -37px;
   margin-top: -25px; }
+  .fon-img .filtro-img {
+    filter: brightness(0.6);
+    width: 100%; }
 
-.filtro-img {
-  filter: brightness(0.6);
-  width: 100%; }
-
-.cont-img h1 {
+.cont-img .name {
   background-color: rgba(0, 0, 0, 0.418);
   display: inline;
   width: 100%;

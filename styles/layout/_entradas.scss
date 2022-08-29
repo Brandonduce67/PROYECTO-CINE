@@ -9,17 +9,15 @@
     font-size: 20px;
 }
 
-.adent-card{
-    margin-left: 20px;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
-
 .contenedor__div{
     display: flex;
     flex-direction: column;
+        .adent-card{
+            margin-left: 20px;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
 }
-
 
 /*--------------------TERMINA ENTRADAS-----------------------*/
 

@@ -37,25 +37,22 @@
             box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
         }
     }
+            .general__imagen{
+                width: 300px;
+                left: 30px;
+                position: relative;
+            }
+                    .Nombre-pelicula{
+                        width: 80%;
+                        display: block;
+                        position: absolute;
+                        top: 300px;
+                        left: 40px;
+                        color: rgba(255, 255, 255, 0.842);
+                        font-size: 28px;
+                        font-weight: 10;
+                        letter-spacing: 1px; 
+                    }
 }
-
-.general__imagen{
-    width: 300px;
-    left: 30px;
-    position: relative;
-}
-
-.Nombre-pelicula{
-    width: 80%;
-    display: block;
-    position: absolute;
-    top: 300px;
-    left: 40px;
-    color: rgba(255, 255, 255, 0.842);
-    font-size: 28px;
-    font-weight: 10;
-    letter-spacing: 1px; 
-}
-
 
 /*--------------------TERMINA INDEX-----------------------*/
