@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import "./styles/layout/variables";
 @import "./styles/layout/index";
 @import "./styles/layout/entradas";
 @import "./styles/layout/contacto";
@@ -47,15 +48,17 @@
 /*--------------------FOOTER-----------------------*/
 
 .footer{
-    display: flex;
-    justify-content: center;
-    background-color: #204891;
+    display: map-get($map: $estilos, $key: display);
+    justify-content: map-get($map: $estilos, $key: justify-content) ;
+    background-color: map-get($map: $estilos, $key: background-color);
+    color: map-get($map: $estilos, $key: color);
 }
 
 .redes__sociales{
-    display: flex;
-    justify-content: center;
-    background-color: #204891;
+    display: map-get($map: $estilos, $key: display);
+    justify-content: map-get($map: $estilos, $key: justify-content) ;
+    background-color: map-get($map: $estilos, $key: background-color);
+    color: map-get($map: $estilos, $key: color);
 }
 
 /*--------------------FOOTER-----------------------*/

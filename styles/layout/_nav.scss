@@ -6,29 +6,21 @@
     top: 0;
     left: 0;
     z-index: 100;
-}
 
-.header{
-    .navbar-brand{
-        color: white;
-        font-weight: 500;
-        &:hover{
-            color: red;
-        }
-    }   
-}
-
-.header{
-    .nav-link{
-        color: white;
-        font-weight: 500;
-        &:hover{
+        .navbar-brand{
             color: white;
-            background-color: rgba(165, 42, 42, 0.438);
-            transition: 0.5s;
-            border-radius: 3px;
-        }
-    }
+            font-weight: 500;
+            &:hover{
+                color: white;
+                background-color: rgba(165, 42, 42, 0.438);
+                transition: 0.5s;
+                border-radius: 3px;
+            }
+        } 
+
+            .nav-link{
+                @extend .navbar-brand;
+            }
 }
 
 .navbar{

@@ -59,6 +59,8 @@
 .contenedor__div {
   display: flex;
   flex-direction: column; }
+  .contenedor__div .form-select {
+    color: #757575; }
   .contenedor__div .adent-card {
     margin-left: 20px;
     letter-spacing: 1px;
@@ -139,21 +141,14 @@
   top: 0;
   left: 0;
   z-index: 100; }
-
-.header .navbar-brand {
-  color: white;
-  font-weight: 500; }
-  .header .navbar-brand:hover {
-    color: red; }
-
-.header .nav-link {
-  color: white;
-  font-weight: 500; }
-  .header .nav-link:hover {
+  .header .navbar-brand, .header .nav-link {
     color: white;
-    background-color: rgba(165, 42, 42, 0.438);
-    transition: 0.5s;
-    border-radius: 3px; }
+    font-weight: 500; }
+    .header .navbar-brand:hover, .header .nav-link:hover {
+      color: white;
+      background-color: rgba(165, 42, 42, 0.438);
+      transition: 0.5s;
+      border-radius: 3px; }
 
 .navbar {
   padding-left: 5%;
@@ -205,12 +200,14 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: #204891; }
+  background-color: #000000;
+  color: white; }
 
 .redes__sociales {
   display: flex;
   justify-content: center;
-  background-color: #204891; }
+  background-color: #000000;
+  color: white; }
 
 /*--------------------FOOTER-----------------------*/
 /*------------------ESTILO PARA CELULAR-----------------*/
