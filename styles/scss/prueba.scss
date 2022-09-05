@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
-@import "./styles/layout/variables";
-@import "./styles/layout/index";
-@import "./styles/layout/entradas";
-@import "./styles/layout/contacto";
-@import "./styles/layout/preguntasfrecuentes";
-@import "./styles/layout/micuenta";
-@import "./styles/layout/nav";
+@import "../layout/variables";
+@import "../layout/index";
+@import "../layout/entradas";
+@import "../layout/contacto";
+@import "../layout/preguntasfrecuentes";
+@import "../layout/micuenta";
+@import "../layout/nav";
 
 *{
     font-family: 'Changa One', cursive;
