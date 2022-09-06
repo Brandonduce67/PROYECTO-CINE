@@ -4,3 +4,14 @@ $estilos: (
     background-color: #000000,
     color: white
 );
+
+$redes: (
+    twitter: #3636b6,
+    facebook-f: blue,
+    youtube: red
+);
+
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}

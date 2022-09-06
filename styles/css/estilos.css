@@ -166,7 +166,6 @@
 .navbar-toggler-icon {
   background-color: #ffffffb4; }
 
-/*------------------NAV-----------------*/
 * {
   font-family: 'Changa One', cursive;
   margin: 0%;
@@ -208,6 +207,30 @@
   justify-content: center;
   background-color: #000000;
   color: white; }
+
+.fa-twitter, .fa-facebook-f, .fa-youtube {
+  background-color: #3636b6; }
+
+.fa-facebook-f {
+  background-color: blue; }
+
+.fa-youtube {
+  background-color: red; }
+
+.fa-twitter, .fa-facebook-f, .fa-youtube {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fa-facebook-f {
+  width: 40px;
+  height: 40px; }
+
+.fa-youtube {
+  width: 40px;
+  height: 40px; }
 
 /*--------------------FOOTER-----------------------*/
 /*------------------ESTILO PARA CELULAR-----------------*/

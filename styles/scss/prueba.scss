@@ -59,7 +59,32 @@
     justify-content: map-get($map: $estilos, $key: justify-content) ;
     background-color: map-get($map: $estilos, $key: background-color);
     color: map-get($map: $estilos, $key: color);
+    
 }
+
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial}{
+        background-color: $colordered;
+    }
+}
+
+.fa-twitter{
+    @include tamanos(40px, 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook-f{
+    @include tamanos(40px, 40px);
+    @extend .fa-twitter;
+}
+
+.fa-youtube{
+    @include tamanos(40px, 40px);
+    @extend .fa-twitter;
+}
+
 
 /*--------------------FOOTER-----------------------*/
 
