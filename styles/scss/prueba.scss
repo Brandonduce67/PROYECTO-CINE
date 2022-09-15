@@ -146,26 +146,24 @@
         /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)ESTILO PARA CELU-----------------------*/
 
         .fon-img{ 
-            margin-left: -37px;
-            margin-top: -25px;
-                .filtro-img{
+               .filtro-img{
                     filter:brightness(0.6);
                     width: 100%;
+                    height: 100%;
                 }
         }
         
         .cont-img{
             .name{
                 background-color: rgba(0, 0, 0, 0.418);
-                display: inline;
                 width: 100%;
-                top: 35%;
                 right: 100px;
                 color: rgb(255, 255, 255);
                 font-size: 20px;
                 font-weight: 400;
                 letter-spacing: 1px;
                 text-align: center;
+                position: static;
                 
             }
         } 
@@ -377,8 +375,6 @@
 
         /*--------------------MI CUENTA PARA CELU-----------------------*/
 
-        .cont__sect{
-
             .letra-micuenta{
                 display: inline;
                 font-size: 15px;
@@ -404,11 +400,7 @@
                     font-size: 15px;
                 }
 
-        }
-
-        
-
-        
+       
 
         .dni__email{
             width: 250px;
