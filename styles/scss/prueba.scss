@@ -17,8 +17,6 @@
 /*--------------------IMAGEN(ENTRADAS, CONTACTOS, PREG-FRECUENTES, MI-CUENTA)-----------------------*/
 
 .fon-img{ 
-    margin-left: -37px;
-    margin-top: -25px;
         .filtro-img{
             filter:brightness(0.6);
             width: 100%;
@@ -95,10 +93,6 @@
         
         /*------------------NAV PARA CELU-----------------*/
 
-        body{
-            padding-top: 70px;
-        }
-
         .logo{
             font-size: 25px;
             font-weight: bold;
@@ -149,7 +143,7 @@
                .filtro-img{
                     filter:brightness(0.6);
                     width: 100%;
-                    height: 100%;
+                    
                 }
         }
         
@@ -332,13 +326,13 @@
                 margin-top: 20px;
                 margin-left: 10%;
                 font-weight: 100;
-                font-size: 25px;
+                font-size: 15px;
                 letter-spacing: 1px;
                 }
 
                 .adent__titulo h6{
                     background-color: rgba(0, 0, 0, 0);
-                    font-size: 22px;
+                    font-size: 15px;
                     margin-top: 20px;
                     margin-left: 10%;
                     font-weight: 50;
