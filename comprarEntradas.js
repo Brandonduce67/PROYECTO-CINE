@@ -40,3 +40,82 @@ if (idPag == "99") {
     titulo.innerText = "LA GALLINA TURULECA"; 
 }
 
+
+let $cine = document.getElementById("cine")
+let $formato = document.getElementById("formato")
+let $dia = document.getElementById("dia")
+let $funcion = document.getElementById("funcion")
+
+let cines = ["Haedo", "Moron", "Moreno"]
+let formatos = ["2D", "3D", "4D"]
+let dias = ["Lunes", "Martes", "Miercoles"]
+let funciones = ["12:00 hs", "14:00 hs", "16:00 hs"]
+
+
+
+function mostrarLugares(arreglo, lugar){
+    let elementos = '<option selected disables>---Seleccione---</option>'
+
+    for (let i = 0; i < arreglo.length; i++) {
+        elementos += `<option value="` + arreglo[i] + `">` + arreglo[i] + `</option>` 
+    }
+    lugar.innerHTML = elementos
+}
+mostrarLugares(cines, $cine);
+
+$cine.addEventListener('change', function(){
+    let valor = $cine.value
+    switch (valor) {
+        case 'Haedo':
+            let recortar1 = formatos.slice(0, 3)
+            mostrarLugares(recortar1, $formato)
+            break;
+        case 'Moron':
+            let recortar2 = formatos.slice(0, 3)
+            mostrarLugares(recortar2, $formato)
+            break;
+        
+        case 'Moreno':
+            let recortar3 = formatos.slice(0, 3)
+            mostrarLugares(recortar3, $formato)
+            break;
+    }
+})
+
+$formato.addEventListener('change', function(){
+    let valor = $formato.value
+    switch (valor) {
+        case '2D':
+            let recortar4 = dias.slice(0, 3)
+            mostrarLugares(recortar4, $dia)
+            break;
+        case '3D':
+            let recortar5 = dias.slice(0, 3)
+            mostrarLugares(recortar5, $dia)
+            break;
+        
+        case '4D':
+            let recortar6 = dias.slice(0, 3)
+            mostrarLugares(recortar6, $dia)
+            break;
+    }
+})
+
+$dia.addEventListener('change', function(){
+    let valor = $dia.value
+    switch (valor) {
+        case 'Lunes':
+            let recortar7 = funciones.slice(0, 3)
+            mostrarLugares(recortar7, $funcion)
+            break;
+        case 'Martes':
+            let recortar8 = funciones.slice(0, 3)
+            mostrarLugares(recortar8, $funcion)
+            break;
+        
+        case 'Miercoles':
+            let recortar9 = funciones.slice(0, 3)
+            mostrarLugares(recortar9, $funcion)
+            break;
+    }
+})
