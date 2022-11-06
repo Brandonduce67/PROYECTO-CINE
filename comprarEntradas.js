@@ -54,7 +54,7 @@ let funciones = ["12:00 hs", "14:00 hs", "16:00 hs"]
 
 
 function mostrarLugares(arreglo, lugar){
-    let elementos = '<option selected disables>---Seleccione---</option>'
+    let elementos = '<option selected disables>--Seleccione--</option>'
 
     for (let i = 0; i < arreglo.length; i++) {
         elementos += `<option value="` + arreglo[i] + `">` + arreglo[i] + `</option>` 
@@ -118,4 +118,12 @@ $dia.addEventListener('change', function(){
             mostrarLugares(recortar9, $funcion)
             break;
     }
+})
+
+
+
+const boton = document.getElementById("botonn")
+
+boton.addEventListener("click", function(){
+    alert("Felicidades, usted a completado el proceso de compra!!!!!!\n" + "Su pelicula: " + titulo.innerText + "\nEstablecimiento: " + $cine.value +"\nFormato: " + $formato.value + "\nDia: " + $dia.value + "\nFuncion: " + $funcion.value + "\nDisfrute de su pelicula!!!")
 })
