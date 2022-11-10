@@ -13,7 +13,7 @@ let titulo = document.querySelector(".Nombre-pelicula")
 
 if (idPag == "99") {
     img.src = "./img/pel1.jpg";
-
+    
 } else if (idPag == "98") {
     img.src = "./img/pel2.jpg";
     titulo.innerText = "TREN BALA"; 
@@ -45,6 +45,7 @@ let $cine = document.getElementById("cine")
 let $formato = document.getElementById("formato")
 let $dia = document.getElementById("dia")
 let $funcion = document.getElementById("funcion")
+
 
 let cines = ["Haedo", "Moron", "Moreno"]
 let formatos = ["2D", "3D", "4D"]
